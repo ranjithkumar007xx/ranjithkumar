@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ranjithkumar | Cybersecurity Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -16,12 +14,15 @@
 </head>
 <body class="bg-gray-900 text-white">
 
-  <!-- Hero Section -->
-  <section class="bg-gradient-to-r from-gray-800 to-gray-900 min-h-screen flex items-center justify-center px-6">
-    <div class="text-center">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">Hi, I'm <span class="text-cyan-400">Ranjithkumar</span></h1>
-      <p class="text-lg md:text-xl mb-6">Cybersecurity Student at SSCE Engineering College, Kaaramadai</p>
-      <p class="text-sm text-gray-400">Based in Coimbatore | Passionate about ethical hacking, network security, and cyber defense</p>
+  <!-- Hero Section with Background Image -->
+  <section 
+    class="bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center px-6"
+    style="background-image: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437d5?auto=format&fit=crop&w=1950&q=80');"
+  >
+    <div class="bg-black bg-opacity-60 p-10 rounded-lg text-center max-w-2xl">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4 text-white">Hi, I'm <span class="text-cyan-400">Ranjithkumar</span></h1>
+      <p class="text-lg md:text-xl mb-4">Cybersecurity Student at SSCE Engineering College, Kaaramadai</p>
+      <p class="text-sm text-gray-300">Based in Coimbatore | Passionate about cyber defense, ethical hacking, and secure systems</p>
     </div>
   </section>
 
@@ -30,21 +31,20 @@
     <div class="max-w-5xl mx-auto text-center">
       <h2 class="text-3xl font-semibold mb-10">Skills</h2>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-        <!-- Add icons as needed -->
         <div>
-          <img src="https://img.icons8.com/ios-filled/50/cyan/hacker.png" class="mx-auto mb-2" />
+          <img src="https://img.icons8.com/ios-filled/50/cyan/hacker.png" class="mx-auto mb-2" alt="Hacking icon" />
           <p>Ethical Hacking</p>
         </div>
         <div>
-          <img src="https://img.icons8.com/ios-filled/50/cyan/firewall.png" class="mx-auto mb-2" />
+          <img src="https://img.icons8.com/ios-filled/50/cyan/firewall.png" class="mx-auto mb-2" alt="Firewall icon" />
           <p>Network Security</p>
         </div>
         <div>
-          <img src="https://img.icons8.com/ios-filled/50/cyan/linux.png" class="mx-auto mb-2" />
-          <p>Linux & CLI</p>
+          <img src="https://img.icons8.com/ios-filled/50/cyan/linux.png" class="mx-auto mb-2" alt="Linux icon" />
+          <p>Linux CLI</p>
         </div>
         <div>
-          <img src="https://img.icons8.com/ios-filled/50/cyan/security-checked.png" class="mx-auto mb-2" />
+          <img src="https://img.icons8.com/ios-filled/50/cyan/security-checked.png" class="mx-auto mb-2" alt="Security icon" />
           <p>Penetration Testing</p>
         </div>
       </div>
@@ -52,17 +52,18 @@
   </section>
 
   <!-- Projects Section -->
-  <section class="py-16 px-6">
+  <section class="py-16 px-6 bg-gray-900">
     <div class="max-w-6xl mx-auto text-center">
       <h2 class="text-3xl font-semibold mb-10">Projects</h2>
       <div class="grid md:grid-cols-2 gap-10">
-        <!-- Example Project -->
-        <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-          <h3 class="text-xl font-bold mb-2">Project Name</h3>
-          <p class="text-gray-300 mb-3">Brief description of the cybersecurity-related project, tools used, and the goal of the project.</p>
-          <a href="#" class="text-cyan-400 hover:underline">View Project</a>
+        <!-- Sample Project -->
+        <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+          <img src="https://via.placeholder.com/400x200" alt="Project Thumbnail" class="w-full rounded mb-4">
+          <h3 class="text-xl font-bold mb-2">Network Vulnerability Scanner</h3>
+          <p class="text-gray-300 mb-3">Developed a tool to scan and report network vulnerabilities using Python and Nmap.</p>
+          <a href="#" class="text-cyan-400 hover:underline">View Details</a>
         </div>
-        <!-- Add more projects similarly -->
+        <!-- Add more projects as needed -->
       </div>
     </div>
   </section>
@@ -84,8 +85,9 @@
 
   <!-- Footer -->
   <footer class="text-center py-6 bg-gray-900 text-gray-500">
-    © 2025 Ranjithkumar. All rights reserved.
+    © 2025 Ranjithkumar | Coimbatore
   </footer>
 
 </body>
 </html>
+
